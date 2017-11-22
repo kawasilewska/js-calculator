@@ -1,0 +1,63 @@
+$very-dark-violet: #100a1c;
+$very-dark-blue: #201e40;
+$very-dark-magenta: #261226;
+$bright-blue: #31bef9;
+$light-grayish-blue: #f4f4f6;
+$very-dark-gray: #2a2a2a;
+
+$main-font: "Trebuchet MS", Helvetica, sans-serif;
+
+html {
+  height: 100%;
+  background: $very-dark-violet;
+  background-image:
+    radial-gradient(circle at top, $very-dark-blue),
+    radial-gradient(circle at bottom, $very-dark-magenta, $very-dark-violet);
+  background-attachment: fixed;
+}
+
+body {
+  background: transparent;
+  font-family: $main-font;
+}
+
+.calculator {
+  margin-top: 20px;
+
+  h1, .container {
+    margin-top: 100px;
+    text-align: center;
+  }
+
+  h1 {
+    color: $bright-blue;
+  }
+
+  .btn-default, #score {
+    border-radius: 3px;
+    margin-top: 10px;
+  }
+
+  .btn-default:hover {
+    cursor: pointer;
+    background: rgba($bright-blue, .75);
+    color: $very-dark-gray;
+  }
+
+  .btn-default {
+    background: rgba($very-dark-gray, .5);
+    color: rgba($bright-blue, .8);
+    font-size: 1.25vw;
+    width: 100%;
+    height: 90%;
+    text-align: center;
+  }
+
+  #score {
+    background: rgba($light-grayish-blue, .75);
+    font-size: 1.5vw;
+    color: #ea393b;
+    text-align: right;
+    width: 100%;
+  }
+}
