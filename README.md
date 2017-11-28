@@ -10,6 +10,3 @@
 [version-url]: https://img.shields.io/badge/version-1.0.0-brightgreen.svg?style=flat "Version"
 [done-url]: https://img.shields.io/badge/done-11.2017-yellow.svg?style=flat "Done"
 [maintenance-url]: https://img.shields.io/maintenance/no/2017.svg?style=flat "Maintenance"
-
-
-
